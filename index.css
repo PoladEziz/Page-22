@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+}
+.page nav {
+  display: flex;
+  width: 100%;
+  height: 72px;
+  padding: 16px 34px;
+  background-color: #5725E5;
+  background: linear-gradient(270deg, #7743DB 31.64%, #5725E5 66.78%);
+}
+.page nav h1 {
+  margin-right: 200px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.page nav a {
+  margin-right: 73px;
+  text-decoration: none;
+  align-items: center;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.page .center {
+  display: flex;
+  width: 100%;
+  padding: 98px;
+}
+.page .center .box {
+  margin-right: 100px;
+}
+.page .center .box h1 {
+  margin-bottom: 32px;
+  font-family: Poppins;
+  font-size: 68px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 109%;
+  background: linear-gradient(268deg, #7743DB 46.2%, #5725E5 59.09%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.page .center .box p {
+  margin-bottom: 32px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 109%;
+}
+.page .center .box button {
+  border: none;
+  width: 170px;
+  height: 50px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109%;
+  border-radius: 25px;
+  background: linear-gradient(263deg, #7743DB 38.81%, #5725E5 70.24%);
+}
+.page ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.page ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
+  list-style-type: none;
+  margin-right: 64px;
+  width: 178px;
+  height: 199px;
+  border-radius: 25px;
+  background: #5725E5;
+}
+.page ul li p {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109%;
+}/*# sourceMappingURL=index.css.map */
