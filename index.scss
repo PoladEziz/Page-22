@@ -11,34 +11,36 @@
     min-height: 100vh;
 
     nav {
+
         display: flex;
+        justify-content: space-between;
         width: 100%;
         min-height: 72px;
         padding: 20px 34px;
         background-color: #5725E5;
         background: linear-gradient(270deg, #7743DB 31.64%, #5725E5 66.78%);
 
-        .phone-btn {
+        .phone-btn-1 {
             display: none;
             border: none;
             background: none;
             width: 37px;
             height: 37px;
 
-            @media only screen and (max-width: 390px) {
+            @media only screen and (max-width: 800px) {
                 display: block;
             }
         }
 
-        .phone-nav-div {
+        .x-btn {
             display: none;
-            width: 387px;
-            height: 282px;
-            background-color: #5725E5;
+            border: none;
+            background: none;
+            width: 37px;
+            height: 37px;
         }
 
         h1 {
-            margin-right: 300px;
             color: #FFF;
             font-family: Poppins;
             font-size: 26px;
@@ -46,7 +48,7 @@
             font-weight: 600;
             line-height: normal;
 
-            @media only screen and (max-width: 390px) {
+            @media only screen and (max-width: 800px) {
                 font-size: 18px;
             }
         }
@@ -63,9 +65,37 @@
             font-weight: 300;
             line-height: normal;
 
-            @media only screen and (max-width: 390px) {
+            @media only screen and (max-width: 800px) {
                 display: none;
             }
+        }
+    }
+
+    .phone-div {
+        display: none;
+        width: 100%;
+        background-color: #5725E5;
+
+        @media only screen and (max-width: 800px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            position: absolute;
+        }
+
+
+        a {
+            text-decoration: none;
+            align-items: center;
+            color: #FFF;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
         }
     }
 
@@ -74,7 +104,7 @@
         width: 100%;
         padding: 100px;
 
-        @media only screen and (max-width: 390px) {
+        @media only screen and (max-width: 800px) {
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
@@ -85,7 +115,7 @@
             width: 677.61px;
             height: 437.417px;
 
-            @media only screen and (max-width: 390px) {
+            @media only screen and (max-width: 800px) {
                 width: 352px;
                 height: 256.511px;
                 margin-bottom: 29px;
@@ -95,7 +125,7 @@
         .box {
             margin-right: 100px;
 
-            @media only screen and (max-width: 390px) {
+            @media only screen and (max-width: 800px) {
                 margin-right: 0;
                 display: flex;
                 flex-direction: column;
@@ -115,7 +145,7 @@
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
 
-                @media only screen and (max-width: 390px) {
+                @media only screen and (max-width: 800px) {
                     font-size: 40px;
                     text-align: center;
                 }
@@ -132,7 +162,7 @@
                 font-weight: 300;
                 line-height: 109%;
 
-                @media only screen and (max-width: 390px) {
+                @media only screen and (max-width: 800px) {
                     text-align: center;
                     font-size: 20px;
                     width: 332px;
@@ -170,12 +200,13 @@
             gap: 18px;
             list-style-type: none;
             margin-right: 64px;
+            margin-bottom: 20px;
             width: 178px;
             height: 199px;
             border-radius: 25px;
             background: #5725E5;
 
-            @media only screen and (max-width: 390px) {
+            @media only screen and (max-width: 800px) {
                 width: 160px;
                 height: 180px;
             }
